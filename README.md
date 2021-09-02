@@ -1,46 +1,95 @@
-# Getting Started with Create React App
+# React Typescript Firebase example: CRUD with Realtime Database
+
+Build a React Typescript and Firebase Realtime Database CRUD example with Router & Bootstrap 4.
+
+It is the React Tutorial Application in that:
+- Each Tutorial has id, title, description, published status.
+- We can create, retrieve, update, delete Tutorials.
+
+![react-typescript-firebase-crud-demo](react-typescript-firebase-crud-demo.png)
+
+For instruction, please visit:
+> [React Typescript Firebase example: CRUD App](https://www.bezkoder.com/firebase-typescript-react/)
+
+Related Posts:
+> [React Typescript Firestore example: CRUD App](https://www.bezkoder.com/react-typescript-firestore/)
+
+> [React Typescript example Project with Axios and Web API](https://www.bezkoder.com/react-typescript-axios/)
+
+> [React Hooks Typescript example Project with Axios and Web API](https://www.bezkoder.com/react-typescript-api-call/)
+
+> [React (Javascript) CRUD example to consume Web API](https://www.bezkoder.com/react-crud-web-api/)
+
+> [React Redux CRUD App example with Rest API](https://www.bezkoder.com/react-redux-crud-example/)
+
+> [React (Hooks) CRUD example to consume Web API](https://www.bezkoder.com/react-hooks-crud-axios-api/)
+
+> [React Table example: CRUD App with react-table v7](https://www.bezkoder.com/react-table-example-hooks-crud/)
+
+Using Material UI instead of Bootstrap:
+> [React Material UI examples with a CRUD Application](https://www.bezkoder.com/react-material-ui-examples-crud/)
+
+More Practice:
+> [React Pagination example](https://www.bezkoder.com/react-pagination-material-ui/)
+
+> [React File Upload example](https://www.bezkoder.com/react-file-upload-axios/)
+
+> [React JWT Authentication & Authorization example](https://www.bezkoder.com/react-jwt-auth/)
+
+> [React + Redux: JWT Authentication & Authorization example](https://www.bezkoder.com/react-redux-jwt-auth/)
+
+Fullstack with Node Express:
+> [React + Node Express + MySQL](https://www.bezkoder.com/react-node-express-mysql/)
+
+> [React + Node Express + PostgreSQL](https://www.bezkoder.com/react-node-express-postgresql/)
+
+> [React + Node Express + MongoDB](https://www.bezkoder.com/react-node-express-mongodb-mern-stack/)
+
+Fullstack with Spring Boot:
+> [React + Spring Boot + MySQL](https://www.bezkoder.com/react-spring-boot-crud/)
+
+> [React + Spring Boot + PostgreSQL](https://www.bezkoder.com/spring-boot-react-postgresql/)
+
+> [React + Spring Boot + MongoDB](https://www.bezkoder.com/react-spring-boot-mongodb/)
+
+Fullstack with Django:
+
+> [React + Django Rest Framework](https://www.bezkoder.com/django-react-axios-rest-framework/)
+
+Integration (run back-end & front-end on same server/port)
+> [Integrate React with Spring Boot](https://www.bezkoder.com/integrate-reactjs-spring-boot/)
+
+> [Integrate React with Node Express](https://www.bezkoder.com/integrate-react-express-same-server-port/)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Set port
+.env
+```
+PORT=8081
+```
+
+## Project setup
 
 In the project directory, you can run:
 
-### `yarn start`
+```
+npm install
+# or
+yarn install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+or
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Compiles and hot-reloads for development
 
-### `yarn test`
+```
+npm start
+# or
+yarn start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The page will reload if you make edits.
